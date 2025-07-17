@@ -471,7 +471,7 @@ function createMenuItem(item, index) {
             </div>
             <p class="menu-item-description">${item.description}</p>
             <div class="menu-item-tags">
-                ${item.tags.map(tag => <span class="menu-item-tag">${tag}</span>).join('')}
+                ${item.tags.map(tag => `<span class="menu-item-tag">${tag}</span>`).join('')}
             </div>
         </div>
     `;
